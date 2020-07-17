@@ -37,6 +37,8 @@
 
 .nav-item{
   display: inline-block;
+  float:left;
+  padding: 15px 0px;
 }
 
 .mx-auto{

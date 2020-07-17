@@ -1,0 +1,27 @@
+body{
+	background-color: linen;
+
+}
+h2{
+	font-family: "Times New Roman";
+}
+#local{
+	background-color: #dddddd; 
+	border:thin dotted #AAAAAA;
+}
+.evenRow{
+	background-color: rgba(0,0,0,0.2);
+}
+
+ul{
+	list-style-type: upper-roman;
+}
+
+table{
+	border:solid 1px black;
+	text-align: center;
+}
+
+a:hover{
+	background-color: rgba(0,0,0,0.2);
+}

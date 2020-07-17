@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta charset="utf-8">
+<title>Testing Style Sheets</title>
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<style type="text/css">
+  h1{
+    color: purple;    
+  }
+  h2{
+    color: orange;
+  }
+
+</style>
+</head>
+<body>
+<h1>Three Types of Style Sheet</h1>
+<p>There are three types of style sheets</p>
+<ol>
+    <li>local styles</li>
+    <li>internal styles</li>
+    <li>external styles</li>
+</ol>
+<h2>Local Styles</h2>
+<p>These styles are written inside of the tag itself. For example:</p>
+<pre>
+   &lt;p style="background-color: #dddddd; border:thin dotted #AAAAAA"&gt;
+     This is a local style&lt;/p&gt;
+</pre>
+<p>Results in:</p>
+<p id="local" >
+  This is a local style</p>
+<p>Any tag can be modified with a local style</p>  
+
+<h2>Internal Styles</h2>
+<p>These styles are specified in the head of the HTML document.  
+To get the same results as above, we could write the following
+</p>
+<pre>
+<b>&lt;head&gt;</b>
+&lt;title&gt;Internal Styles&lt;/title&gt;
+&lt;style&gt;
+   .special { 
+              background-color: #DDDDDD;
+              border:thin dotted #AAAAAA;
+    }
+&lt;/style&gt;
+<b>&lt;/head&gt;</b>
+
+&lt;body&gt;
+  &lt;p class="special"&gt;This is an internal style&lt;/p&gt;
+&lt;/body&gt;</pre>
+<h2>External Style Sheets</h2>
+<p>Once you've caught onto the idea of internal style sheets, 
+external style sheets are very close to the same.</p>
+<ul>
+   <li>copy what is between the style tags of the internal style sheet
+       and save it to a file with a .css extension (let's say you
+       call it <em>mystyle.css</em>)</li>
+   <li>there should be no "style" tags in the external style sheet</li>
+   <li>the following is the contents of <em>mystyle.css</em>
+       <pre>
+.special { 
+           background-color: #DDDDDD;
+           border:thin dotted #AAAAAA;
+ }
+       </pre>
+   </li>
+
+   <li>in your .html, in place of the internal style sheet, you 
+       will have a "link" to the external .css file that you just 
+       created.  The link will look as the following
+       <pre>
+        &lt;link rel="stylesheet" href="mystyle.css" type="text/css" /&gt;
+       </pre>
+   </li>
+   <li>Don't forget to change permissions for .css files<br />
+	<b>chmod 644 mystyle.css</b></li>
+</ul>
+<h2>Table to Add Style</h2>
+<table>
+  <tr>
+    <th>Topic</th>
+    <th>w3schools Link</th>
+    <th>Brief Description</th>
+  </tr>
+  <tr>
+    <td>Text</td>
+    <td><a href="http://www.w3schools.com/css/css_text.asp">http://www.w3schools.com/css/css_text.asp</a></td>
+    <td>color, alignment, decoration (ie. underlining or strikethrough), and indentation</td>
+  </tr>
+  <tr class="evenRow">
+    <td>Fonts</td>
+    <td><a href="http://www.w3schools.com/css/css_font.asp">http://www.w3schools.com/css/css_font.asp</a></td>
+    <td>font-family, style (like italics), and size</td>
+  </tr>
+  <tr>
+    <td>Border</td>
+    <td><a href="http://www.w3schools.com/css/css_border.asp">http://www.w3schools.com/css/css_border.asp</a></td>
+    <td>style (ie. dotted or dashed), width, and color</td>
+  </tr>
+  <tr class="evenRow">
+    <td>Align</td>
+    <td><a href="http://www.w3schools.com/css/css_align.asp">http://www.w3schools.com/css/css_align.asp</a></td>
+    <td>centering and left/right aligning block elements</td>
+  </tr>
+  <tr>
+   
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
