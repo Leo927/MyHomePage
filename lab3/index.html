@@ -5,8 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Songhao Li's CS215 Homepage</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/smallDevices.css">
-	<link rel="stylesheet" type="text/css" href="css/largeDevices.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:580px)" href="http://www.cs.uregina.ca/Links/class-info/215/advanced_html_css/small-devices.css">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width:581px)" href="http://www.cs.uregina.ca/Links/class-info/215/advanced_html_css/large-devices.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 <body>	
 	<nav class="navbar light">
@@ -18,7 +19,7 @@
 		<a href="../basic_html_pages/signup.html" class="signup btn-outline-success">Sign Up</a>      	
 	</nav>
 	
-	<main class="mx-auto main_body">
+	<main class="mx-auto container">
 		<header class="text-center">
 			<h1>Welcome to Songhao Li's CS215 Homepage</h1>
 		</header>
@@ -64,22 +65,27 @@
 				<li class="list-group-item">PHP</li>
 			</ul>
 		</section>
-		<section>
+		<aside>
 			<h1>Currently taking</h1>
 			<ul class="list-group">
 				<li class="list-group-item">CS215</li>
 				<li class="list-group-item">CS340</li>
 			</ul>
-		</section>
-		<section>
+		</aside>
+		<aside>
 			<h1>CS Courses taken</h1>
 			<ul class="list-group">
 				<li class="list-group-item">CS115</li>
 				<li class="list-group-item">CS210</li>
 			</ul>
-		</section>
+		</aside>
 
 	</main>
+	<footer>
+		<div class="mx-auto container">
+			<a href="mailto:li725@uregina.ca"><i class="far fa-envelope fa-3x"></i></a>	
+		</div>			
+	</footer>
 
 </body>
 </html>

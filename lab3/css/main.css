@@ -10,16 +10,17 @@
   width: 16%;
 }
 
-.main_body{
+.container{
   max-width: 1000px;
 }
 
 .navbar{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   display: block;
+  margin-left: 0px !important;
 }
 .text-center{
   text-align: center;
@@ -56,6 +57,7 @@ a{
 
 .nav-link{
   color: teal;
+  padding: 3px 10px;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -88,8 +90,8 @@ a{
 }
 
 main{
-  position: relative;
-  top: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .mr-auto{
@@ -97,15 +99,20 @@ main{
 }
 
 .signup{
-  flex: left;
-  position: fixed;
+  position: absolute;
   top: 10px;
   right: 20px;
 }
 
 .list-group{
   list-style-type: decimal;
+  display: inline-block;
 }
 .list-group-item{
   margin: 1%;
+}
+
+footer a{
+  margin-left: 50px;
+  margin-right: 50px;
 }

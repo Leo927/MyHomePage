@@ -28,6 +28,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="lab3/index.html">Lab3</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="lab4/signup.html">Lab4</a>
+				</li>
 			</ul>
 			<a href="basic_html_pages/signup.html" class="btn btn-outline-success my-2 my-sm-0">Sign Up</a>
 		</div>
@@ -40,7 +43,7 @@
 	</div>
 	<main class="row mx-auto" style="max-width: 1000px">
 		
-		<h2>A little bit about myself <i class="fas fa-male fa-3x"></i></h2>
+		<h2>A little bit about myself <i class="fas fa-male"></i></h2>
 		<p>Hello, my name is Songhao Li. You can call me Leo I am an industrial system engineering graduate. Yeah I know it is strange. What business does an industrial engineer has to do with CS215? That will be a long story. </p>
 		<p>
 			I have learned c++ from CS115. I like to study on my own. So I have covered a lot more topics than just from CS115. Lamda expression? No problem.
@@ -59,35 +62,77 @@
 		<p>
 			By the way, I learned all of the above within 4 months. That was a lot of studying every single day. I amazed myself.
 		</p>
-		<h2>My Skill Set</h2>
-		<ul class="list-group col-6">
-			<li class="list-group-item">C++</li>
-			<li class="list-group-item">C#</li>
-			<li class="list-group-item">Unity<i class="fab fa-unity fa-3x"></i></li>
-			<li class="list-group-item">ASP.net</li>
-			<li class="list-group-item">Restful API<i class="fas fa-satellite-dish fa-3x"></i></li>
-			<li class="list-group-item">Git & Github<i class="fab fa-github fa-3x"></i></li>		
-			<li class="list-group-item">SQL<i class="fas fa-server fa-3x"></i></li>
-			<li class="list-group-item">Blazor Server App</li>
-			<li class="list-group-item">Blazor WebAssembly</li>
-			<li class="list-group-item">Html<i class="fab fa-html5 fa-3x"></i></li>
-			<li class="list-group-item">CSS<i class="fab fa-css3-alt fa-3x"></i></li>
-			<li class="list-group-item">JavaScript <i class="fab fa-js fa-3x"></i></li>
-			<li class="list-group-item">JQuery</li>
-			<li class="list-group-item">AJAX(not really a thing on its own)</li>
-			<li class="list-group-item">Boostrap v4<i class="fab fa-bootstrap fa-3x"></i></li>
-			<li class="list-group-item">PHP</li>
-		</ul>
-		<h2>Currently taking</h2>
-		<ul class="list-group col-6">
-			<li class="list-group-item">CS215</li>
-			<li class="list-group-item">CS340</li>
-		</ul>
-		<h2>CS Courses taken</h2>
-		<ul class="list-group col-6">
-			<li class="list-group-item">CS115</li>
-			<li class="list-group-item">CS210</li>
-		</ul>
+		<div class="accordion col-12" id="accordionExample">
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							My Skill Set
+						</button>
+					</h2>
+				</div>
+
+				<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+					<div class="card-body">
+						<ul class="list-group col-12">
+							<li class="list-group-item">C++</li>
+							<li class="list-group-item">C#</li>
+							<li class="list-group-item">Unity<i class="fab fa-unity fa-3x"></i></li>
+							<li class="list-group-item">ASP.net</li>
+							<li class="list-group-item">Restful API<i class="fas fa-satellite-dish fa-3x"></i></li>
+							<li class="list-group-item">Git & Github<i class="fab fa-github fa-3x"></i></li>		
+							<li class="list-group-item">SQL<i class="fas fa-server fa-3x"></i></li>
+							<li class="list-group-item">Blazor Server App</li>
+							<li class="list-group-item">Blazor WebAssembly</li>
+							<li class="list-group-item">Html<i class="fab fa-html5 fa-3x"></i></li>
+							<li class="list-group-item">CSS<i class="fab fa-css3-alt fa-3x"></i></li>
+							<li class="list-group-item">JavaScript <i class="fab fa-js fa-3x"></i></li>
+							<li class="list-group-item">JQuery</li>
+							<li class="list-group-item">AJAX(not really a thing on its own)</li>
+							<li class="list-group-item">Boostrap v4<i class="fab fa-bootstrap fa-3x"></i></li>
+							<li class="list-group-item">PHP</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingTwo">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Currently taking
+						</button>
+					</h2>
+				</div>
+				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					<div class="card-body">
+						<ul class="list-group col-6">
+							<li class="list-group-item">CS215</li>
+							<li class="list-group-item">CS340</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingThree">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							CS Courses taken
+						</button>
+					</h2>
+				</div>
+				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+					<div class="card-body">
+						<ul class="list-group col-12">
+							<li class="list-group-item">CS115</li>
+							<li class="list-group-item">CS210</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
 
 	</main>
 
