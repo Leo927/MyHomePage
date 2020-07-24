@@ -1,0 +1,11 @@
+.hidden{
+	visibility: hidden;
+}
+
+.placeholder{
+	visibility: hidden;
+}
+
+.form{
+	max-width: 600px
+}
