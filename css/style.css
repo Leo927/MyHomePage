@@ -9,3 +9,7 @@
 .form{
 	max-width: 600px
 }
+
+.navbar-nav li:hover>.dropdown-menu {
+  display: block;
+}
