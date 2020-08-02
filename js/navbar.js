@@ -33,6 +33,7 @@ function addNavbar(path)
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 		          <a class="dropdown-item" href="http://www2.cs.uregina.ca/~li725/CS215ProjectMiniPoll/index.html">CS 215 Mini Poll Project</a>
+		          <a class="dropdown-item" href="`+path+`assignment4/cs215assignment4.html">assignment 4</a>
 		        </div>
 		      </li>
 			</ul>
