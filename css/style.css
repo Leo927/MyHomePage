@@ -13,3 +13,7 @@
 .navbar-nav li:hover>.dropdown-menu {
   display: block;
 }
+
+body{
+	margin-bottom: 100px;
+}

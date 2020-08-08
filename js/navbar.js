@@ -16,7 +16,7 @@ function addNavbar(path)
 		          CS215 Labs
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="`+path+`lab1/index.html">Lab 1</a>
+		          <a class="dropdown-item" href="`+path+`lab1/index.html">lab 1</a>
 		          <a class="dropdown-item" href="`+path+`lab2/index.html">lab 2</a>
 		          <a class="dropdown-item" href="`+path+`lab3/index.html">lab 3</a>
 		          <a class="dropdown-item" href="`+path+`lab4/signup.html">lab 4</a>
@@ -24,6 +24,8 @@ function addNavbar(path)
 		          <a class="dropdown-item" href="`+path+`lab6/signup.html">lab 6</a>
 		          <a class="dropdown-item" href="`+path+`lab7/lab7.html">lab 7</a>
 		          <a class="dropdown-item" href="`+path+`lab8/lab8.html">lab 8</a>
+		          <a class="dropdown-item" href="`+path+`lab9/signup.html">lab 9</a>
+		          <a class="dropdown-item" href="`+path+`lab10/index.php">lab 10</a>
 		        </div>
 		      </li>
 

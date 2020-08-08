@@ -72,9 +72,13 @@ function checkPswdr(event)
 		document.getElementById("confirmPassword").value == document.getElementById("userPassword").value);
 }
 
-function checkSignUp(event)
+function checkAvator(event)
 {
-	event.preventDefault();
+	if(event.target.)
+}
+
+function checkSignUp(event)
+{	
 	var isOK = true;
 	isOK = isOK& checkEmail(event);
 	isOK = isOK& checkPassword(event);
