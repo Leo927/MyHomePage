@@ -26,6 +26,7 @@ function addNavbar(path)
 		          <a class="dropdown-item" href="`+path+`lab8/lab8.html">lab 8</a>
 		          <a class="dropdown-item" href="`+path+`lab9/signup.html">lab 9</a>
 		          <a class="dropdown-item" href="`+path+`lab10/index.php">lab 10</a>
+		          <a class="dropdown-item" href="`+path+`lab11/ajax.html">lab 11</a>
 		        </div>
 		      </li>
 
@@ -34,7 +35,7 @@ function addNavbar(path)
 		          CS215 Course
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="http://www2.cs.uregina.ca/~li725/CS215ProjectMiniPoll/index.html">CS 215 Mini Poll Project</a>
+		          <a class="dropdown-item" href="http://www2.cs.uregina.ca/~li725/CS215ProjectMiniPoll/">CS 215 Mini Poll Project</a>
 		          <a class="dropdown-item" href="`+path+`assignment4/cs215assignment4.html">assignment 4</a>
 		        </div>
 		      </li>
